@@ -18,7 +18,6 @@ function Section1() {
                                 <span className='orange'>.</span>
                             </h1>
                         </div>
-                        {!scroll ? 'kaas' : 'vlees'}
                         <div className="sec-1-text-con">
                             <p className='sec-1-text'>
                                 Ik bouw en design simpele maar<br></br> 

@@ -16,9 +16,8 @@ function Section3() {
                 </div>
                 <div className="contact-descrip-placer">
                     <p className="contact-descrip">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                        has been the<br></br>industry's standard dummy text ever since 
-                        the 1500s, when an unknown
+                        Ik sta altijd klaar om u te helpen! Neem gerust contact met mij op via mijn <br></br>
+                        Ik kijk uit naar het opbouwen van een samenwerking met u!
                     </p>
                 </div>
             </div>

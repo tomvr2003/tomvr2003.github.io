@@ -19,10 +19,11 @@ function Section2() {
                     </div>
                     <div className="skills-text-con">
                         <p className='skills-text'>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem<br></br>
-                            has been the industry's standard dummy text ever since the 1500s, when an unknown<br></br>
-                            took a galley of type and scrambled it to make a type specimen book. typesetting,<br></br>
-                            remaining essentially unchanged.  It was popularised in the 1960s with the releas
+
+                        Ik studeer software development aan het Technovium te Nijmegen.<br></br>
+                        Een aantal jaren hebben ik al passie voor het vak progammeren. <br></br>
+                        Dit begon klein met wat google inspecteren maar is inmiddels uitgegroeid <br></br>
+                        naar het bouwen van complete simpele maar effectieve projecten. 
                         </p>
                     </div>
                 </div>
@@ -36,8 +37,8 @@ function Section2() {
                         </div>
                         <div className="box-3">
                             <p>
-                                I like to code things from scratch, and enjoy
-                                bringing  ideas to life in the browser.
+                                Ik waardeer een eenvoudige inhoudsstructuur, 
+                                strakke ontwerppatronen en doordachte interacties.
                             </p>
                         </div>
                         <div className="box-4">
@@ -60,8 +61,8 @@ function Section2() {
                         </div>
                         <div className="box-3">
                             <p>
-                                I like to code things from scratch, and enjoy
-                                bringing  ideas to life in the browser.
+                                Ik hou ervan om dingen vanaf nul te coderen en vind het 
+                                leuk om ideeën tot leven te brengen in de browser.
                             </p>
                         </div>
                         <div className="box-4">
