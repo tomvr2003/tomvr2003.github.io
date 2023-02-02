@@ -1,0 +1,248 @@
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    z-index: 100;
+}
+
+.nav-left, .nav-right, .nav-right-mobile {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.nav-left {
+    justify-content: flex-start;
+}
+
+.nav-title {
+    color: #37FF8B;
+    font-size: 50px;
+    -webkit-transition: all 50ms ease-in-out;
+    transition: all 50ms ease-in-out;
+}
+
+.nav-title.active {
+    font-size: 0px;
+}
+
+.nav-right, .nav-right-mobile {
+    justify-content: flex-end;
+}
+
+.hamburger {
+    cursor: pointer;
+    position: absolute;
+}
+
+.bar-1, .bar-2, .bar-3 {
+    display: block;
+    width: 45px;
+    height: 6px;
+    margin: 9px auto;
+    -webkit-transition: all 15ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    background-color: #37FF8B;
+}
+
+.bar-1.active {
+    background-color: #FFF;
+}
+
+.bar-2.active {
+    background-color: #FFF;
+}
+
+.bar-3.active {
+    background-color: #FFF;
+}
+
+.hamburger.active .bar-2 {
+    opacity: 0;
+}
+
+.hamburger.active .bar-1 {
+    transform: translateY(14px) rotate(45deg);
+    background-color: #37FF8B;
+}
+
+.hamburger.active .bar-3 {
+    transform: translateY(-16px) rotate(-45deg);
+    background-color: #37FF8B;
+}
+
+.hamburger.active .bar-1.active-2 {
+    background-color: #FFF;
+}
+
+.hamburger.active .bar-3.active-2 {
+    background-color: #FFF;
+}
+
+.menu-container {
+    height: 450px;
+    width: 0px;
+    background-color: #90AA86;
+    margin-top: 380px;
+    margin-right: -35px;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container.active {
+    height: 450px;
+    width: 350px;
+    background-color: #90AA86;
+}
+
+.menu-container.active-2 {
+    background-color: #188daa;
+}
+
+.un-list {
+    visibility: hidden;
+}
+
+.un-list.active {
+    visibility: visible;
+}
+
+.navbar-link-1, .navbar-link-2, .navbar-link-3 {
+    color: #FFF;
+    text-decoration: none;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.navbar-link-1:hover, .navbar-link-2:hover, .navbar-link-3:hover {
+    color: #37FF8B;
+    font-weight: 700;
+}
+
+.navbar-link-1.active:hover, .navbar-link-2.active:hover, .navbar-link-3.active:hover {
+    color: black;
+    font-weight: 700;
+}
+
+.menu-text {
+    font-size: 22px;
+    color: #FFF;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.menu-placer {
+    margin-top: 20px;
+    color: #37FF8B;
+    border-bottom: 2px solid #ffffff;
+    width: 38%;
+    font-weight: 700;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.menu-placer.active {
+    color: #000;
+    font-weight: 700;
+}
+
+.list {
+    list-style: none;
+    font-size: 22px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.oneLetter {
+    font-size: 0;
+    visibility: hidden;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.oneLetter.activeOne {
+    visibility: visible;
+    font-size: 50px;
+    color: #188daa;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 990px) {
+    
+    .bar {
+        background-color: #232C33;
+    }    
+
+}
+
+@media only screen and (max-width: 414px) {
+    
+    .nav-left {
+        flex: 10;
+    }
+
+    .nav-title {
+        margin-left: -39px;
+        visibility: hidden;
+    }
+
+    .oneLetter {
+        visibility: visible;
+        font-size: 50px;
+        margin-left: -90px;
+        -webkit-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
+    }
+
+    .oneLetter.active {
+        left: 103px;
+        position: absolute;
+        color: #188daa;
+    }
+
+    .nav-right {
+        flex: 1;
+    }
+
+    .hamburger {
+        margin-right: -40px;
+
+    }
+
+    .hamburger.active {
+        margin-right: 35px;
+        margin-top: 5px;
+    }
+
+    .menu-container.active {
+        padding: 0 250px;
+        margin-top: 440px;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+    }
+
+    .un-list {
+        margin-left: 100px;
+    }
+
+}
+
+/* My Laptop */
+
+@media only screen and (max-height: 657px) {
+
+    header {
+        height: 15vh;
+    }
+    
+    .header-dummy {
+        height: 15vh;
+    }
+
+}

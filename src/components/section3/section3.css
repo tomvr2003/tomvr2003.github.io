@@ -1,0 +1,182 @@
+#section-3 {
+    height: 100vh;
+    background-color: #DADFF7;
+}
+
+.blue-dot {
+    color: #188daa;
+}
+
+.contact-title-container {
+    height: 40vh;
+}
+
+.contact-title-placer {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.contact-descrip-placer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+.contact-descrip-placer {
+    height: 40%;
+}
+
+.contact-title {
+    font-size: 45px;
+    color: #232C33;
+}
+
+.over-ons-contact-container {
+    height: 60vh;
+}
+
+form {
+    margin-top: -10px;
+}
+
+.over-ons-contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+#naam, #email, #tnummer, #bnaam, #bericht {
+    padding-right: 600px;
+    border: none;
+    border-bottom: 2px solid #232C33;
+    background-color: transparent;
+    margin-bottom: 20px;
+    color: #188daa;
+    opacity: 0.7;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 19px;
+}
+
+#bericht {
+    padding-bottom: 100px;
+}
+
+ #naam::placeholder, #email::placeholder, #tnummer::placeholder, #bnaam::placeholder, #bericht::placeholder {
+    color: #188daa;
+ }
+
+ #naam:focus, #email:focus, #tnummer:focus, #bnaam:focus, #bericht:focus {
+    outline: none;
+ }
+
+ textarea {
+    width: 100%;
+    height: 50px;
+    font-size: 19px;
+    color: #188daa;
+    background-color: transparent;
+    border-color: #232C33;
+    resize: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #232C33;
+    max-height: 200px;
+    opacity: 0.7;
+}
+
+textarea:is(:focus, :valid) {
+    border-width: 2px;
+    padding-left: 20px;
+    padding-bottom: 29px;
+}
+
+textarea::-webkit-scrollbar {
+    width: 0px;
+}
+
+textarea::placeholder {
+    color: #188daa;
+}
+
+.button-contact {
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 2px solid #232C33;
+    font-size: 18px;
+    color: #FFF;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all ease 0.15s;
+}
+
+.submit {
+    text-decoration: none;
+}
+
+.button-span {
+    color: #188daa;
+    text-decoration: none;
+    transition: all ease 0.15s;
+}
+
+.button-contact:hover {
+    padding: 12px 25px;
+}
+
+@media only screen and (max-width: 1400px) {
+
+    form {
+        margin-top: 20px;
+    }
+
+    .contact-title-container {
+        height: 45vh;
+    }
+    
+}
+
+@media only screen and (max-width: 900px) {
+
+#section-3 {
+    height: 110vh;
+}
+
+.contact-descrip {
+    font-size: 16px;
+    width: 80%;
+}
+
+.contact-title-container {
+    height: 35vh;
+}
+
+.contact-title {
+    font-size: 31px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+#naam, #email, #tnummer, #bnaam, #bericht {
+    padding-right: 100px;
+}
+
+}
+
+@media only screen and (max-height: 700px) {
+
+#section-3 {
+    height: 135vh;
+}
+
+}
+
+
+
